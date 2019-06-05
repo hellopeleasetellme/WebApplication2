@@ -19,6 +19,12 @@ namespace WebApplication2.Controllers
 
             return View();
         }
+        public ActionResult MyAction1()
+        {
+            ViewBag.Message = "这是我第一个Action";
+            ViewBag.Xuehao = "201831980240";
+            return View();
+        }
 
         public ActionResult Contact()
         {
